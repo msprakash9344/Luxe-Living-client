@@ -1,0 +1,44 @@
+.signup-container {
+    display: flex;
+    height: 100vh;
+  }
+  .left-section {
+    background-image: url('./images/dining1.webp');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .right-section {
+    background-color: #ffffff;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-custom {
+    background-color: #b71c1c;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+  }
+  .btn-custom:hover {
+    background-color: #8e0000;
+    color: #ffffff;
+  }
+
+  .login-left-section {
+    background-image: url('./images/bedscategories.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }

@@ -1,0 +1,267 @@
+.banner-container{
+  width: 100%;
+  height: 620px;
+}
+
+.banner-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .banner-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items:start;
+  justify-content: center;
+} */
+
+.card{
+  border-style: none;
+}
+
+.banner-text{
+  margin-top: 80px;
+  color: white;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.line {
+  flex-grow: 1;
+  border: none;
+  height: 1px;
+  background-color: black;
+}
+
+.text {
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* product image hover */
+
+.product-img-container{
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  overflow: hidden;
+  transition: 0.3s;
+  position: relative;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-rating-overlay{
+     position: absolute;
+     top: 258px;
+     right: 8px;
+     background-color:green ;
+     border-radius: 0px;
+     padding-bottom: 3px;
+}
+
+.product-rating-overlay-text{
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 6px;
+}
+.product-offer-overlay{
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background-color:rgb(218, 4, 4);
+  border-radius: 3px;
+  padding-bottom: 3px;
+}
+
+.product-offer-overlay-text{
+color: white;
+text-align: center;
+align-items: center;
+justify-content: center;
+align-content: center;
+margin: 5px;
+font-size: 13px;
+}
+.product-img-container:hover .product-img {
+  transform: scale(1.02);
+}
+/* Styling for the category container */
+.categories-img-container {
+    width: 100%;
+    height: 150px; /* Adjust height as needed */
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .product-title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  /* Image styling */
+  .categories-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Hover effect: Zoom in the image */
+  .categories-img-container:hover .categories-img {
+    transform: scale(1.1);
+  }
+  
+  /* Card body styling */
+  .card-body {
+    padding: 15px;
+    transition:0.1s;
+  }
+ 
+  /* furniture collection images */
+
+  .category-card{
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 100%;
+}
+
+.category-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.4s ease-in-out;
+}
+
+.category-title {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.4s ease-in-out;
+}
+
+/* Hover Effects */
+.category-card:hover .category-img {
+  transform: scale(1.1);
+}
+
+.category-card:hover .overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.category-card:hover .category-title {
+  transform: scale(1.2);
+}
+
+/* offer */
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 190px; /* Adjust height as needed */
+  width: 190px;
+  background-color: #f8f9fa; /* Optional background color */
+  border-radius: 50%; /* Optional for rounded corners */
+  border-style: solid;
+  border-width: 0.5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+.offer-text {
+  font-size: 20px; /* Adjust size if needed */
+}
+
+.card-container:hover{
+  background-color: rgb(63, 5, 63);
+  color: white;
+  border-style: solid;
+  border-width: 0.5px;
+}
+
+
+
+.feedback-container{
+  background-color: rgb(224, 220, 220);
+  margin-bottom: 25px;
+} 
+
+.feedback-img{
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+.feedback-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 30px;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+.feedback-scroll::-webkit-scrollbar {
+  height: 8px;
+  
+}
+
+.feedback-scroll::-webkit-scrollbar-thumb {
+  background: rgb(95, 7, 95);
+  border-radius: 4px;
+}
+
+.feedback-card {
+  min-width: 383px;
+  flex: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.star{
+  color:orange;
+}
+
+.footer-icon{
+  background-color:rgba(15, 13, 13, 0.5);
+  padding: 10px;
+  width: auto;
+  border-radius: 20px;
+}
