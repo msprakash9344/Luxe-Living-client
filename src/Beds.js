@@ -52,7 +52,7 @@ const sofa = () => {
     return(
         <>
   
-        <img src={banner} className="w-100 mb-5"></img>
+        <img src={banner} className="w-100 mb-5" alt="banner"></img>
 
           {/* Cards Section */}
 
@@ -68,7 +68,7 @@ const sofa = () => {
             <div key={index} className="col-lg-4 col-md-6 col-sm-12 mb-4">
               <div className="card shadow">
                 <div className="product-img-container">
-                  <img src={card.imageUrl} alt={card.title} className="card-img-top product-img p-2" alt="Card" style={{borderRadius:"15px"}}/>
+                  <img src={card.imageUrl} alt={card.title} className="card-img-top product-img p-2" style={{borderRadius:"15px"}}/>
                   <div className="product-rating-overlay">
                     <h6 className="product-rating-overlay-text"><i className="bi bi-star-fill"> </i> {card.rating}</h6>
                   </div>  
