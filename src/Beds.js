@@ -68,7 +68,7 @@ const sofa = () => {
             <div key={index} className="col-lg-4 col-md-6 col-sm-12 mb-4">
               <div className="card shadow">
                 <div className="product-img-container">
-                  <img src={card.imageUrl} className="card-img-top product-img p-2" alt="Card" style={{borderRadius:"15px"}}/>
+                  <img src={card.imageUrl} alt={card.title} className="card-img-top product-img p-2" alt="Card" style={{borderRadius:"15px"}}/>
                   <div className="product-rating-overlay">
                     <h6 className="product-rating-overlay-text"><i className="bi bi-star-fill"> </i> {card.rating}</h6>
                   </div>  
@@ -103,7 +103,7 @@ const sofa = () => {
                 <div className="col-6 text-center pt-4">
                   <div className="input-group mb-4 justify-content-center">
                     <input type="email" className="form-control w-50" placeholder="Please enter your email" />
-                    <button className="btn btn-dark">Subscribe</button>
+                    <button className="btn btn-dark" type="button">Subscribe</button>
                   </div>
                 </div>
               </div>
@@ -161,10 +161,10 @@ const sofa = () => {
                 <div className="col-md-2" style={{lineHeight:"30px"}}>
                   <h6>SOCIAL ACCOUNTS</h6>
                   <div className="d-flex mt-3">
-                    <img src={facebook} height={"40px"} ></img>
-                    <img src={instagram} height={"40px"} style={{marginLeft:"-5px"}}></img>
-                    <img src={snapchat} height={"35px"} className="me-1 mt-1"></img>
-                    <img src={youtube} height={"40px"} ></img>
+                    <img src={facebook} height={"40px"} alt="facebook"></img>
+                    <img src={instagram} height={"40px"} alt="instagram" style={{marginLeft:"-5px"}}></img>
+                    <img src={snapchat} height={"35px"} alt="snapchat" className="me-1 mt-1"></img>
+                    <img src={youtube} height={"40px"} alt="youtube"></img>
                   </div>
                   <h6 className="mt-3">PAY USING</h6>
                   <img src={pay1} alt="MasterCard" width="40" className="me-1"/>
@@ -177,19 +177,19 @@ const sofa = () => {
               {/* Bottom Icons */}
               <div className="footer-icon row text-center m-4">
                 <div className="col-md-3">
-                  <img src={delivery} height={"50px"}></img>
+                  <img src={delivery} height={"50px"} alt="delivery"></img>
                   <p>FREE DELIVERY</p>
                 </div>
                 <div className="col-md-3">
-                <img src={returns} height={"50px"}></img>
+                <img src={returns} height={"50px"} alt="return"></img>
                   <p>EASY RETURNS</p>
                 </div>
                 <div className="col-md-3">
-                <img src={payments} height={"50px"}></img>
+                <img src={payments} height={"50px"} alt="payments"></img>
                   <p>SECURE PAYMENT</p>
                 </div>
                 <div className="col-md-3">
-                <img src={timing} height={"50px"}></img>
+                <img src={timing} height={"50px"} alt="time"></img>
                   <p>9 AM TO 6:30 PM | 7 DAYS</p>
                 </div>
               </div>
