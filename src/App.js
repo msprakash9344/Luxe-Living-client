@@ -21,7 +21,7 @@ function App(){
             <div className="App">
                 <nav className="navbar navbar-expand-lg navbar-light bg-white shadow fixed-top">
                     <div className="container-fluid"> 
-                        <img src={logo} height={'60px'} width={"70px"}></img>
+                        <img src={logo} height={'60px'} width={"70px"} src="logo"></img>
                         <button className="navbar-toggler" type="button" data-bs-togglers="collaps" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Togglenavigation"><span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
